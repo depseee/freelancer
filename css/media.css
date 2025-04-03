@@ -57,3 +57,55 @@
         text-align: center;
     }
 }
+
+@media (max-width: 700px) {
+    .header-heading {
+        font-size: 34px;
+    }
+
+    .header-heading span {
+        font-size: 28px;
+    }
+
+    .services {
+        padding: 60px 0;
+    }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+
+    .portfolio-img {
+        margin-bottom: 30px;
+    }
+
+    .project + .project {
+        margin-bottom: 55px;
+    }
+
+    .contacts {
+        padding: 60px;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+
+    .contacts-button {
+        margin-bottom: 70px;
+    }
+
+    .contacts-social {
+        margin-bottom: 20px;
+        column-gap: 20px;
+        min-width: 100%;
+    }
+}
